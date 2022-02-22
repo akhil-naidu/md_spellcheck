@@ -1,0 +1,14 @@
+{
+  "parts": [
+    {
+      "name": "md_spellcheck",
+      "client_hooks": {
+        "postAceInit": "md_spellcheck/static/js/spellcheck:postAceInit"
+      },
+      "hooks": {
+        "eejsBlock_mySettings": "md_spellcheck/spellcheck",
+        "eejsBlock_dd_view": "md_spellcheck/spellcheck"
+      }
+    }
+  ]
+}
